@@ -1,0 +1,27 @@
+@import '_vars';
+@import '_global';
+@import '_fonts';
+
+.submit {
+    color: #ffffff;
+}
+.header {
+    max-height: 180px;
+    
+}
+.header__top {
+    height:100px;
+    padding: 23px 0px 25px 6px;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        background-color: #eef1f3;
+    }
+    &-seller {
+        display: block;
+        background-color: #0674ec;
+    }
+        
+    }
+    
+}
