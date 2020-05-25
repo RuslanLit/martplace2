@@ -18,15 +18,14 @@ gulp.task('sass', function() {
           .pipe(browserSync.reload({stream: true}))
 });
 
-gulp.task('style', function() {
+gulp.task('style', function () {
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
-        'node_modules/slick-carousel/slick/slick.css',
-        'node_modules/magnific-popup/dist/magnific-popup.css'
+        'node_modules/slick-carousel/slick/slick.css'
     ])
-    .pipe(concat('libs.min.css'))
-    .pipe(cssmin())
-    .pipe(gulp.dest('app/css'))
+        .pipe(concat('libs.min.css'))
+        .pipe(cssmin())
+        .pipe(gulp.dest('app/css'))
 })
 
 gulp.task('script', function() {
