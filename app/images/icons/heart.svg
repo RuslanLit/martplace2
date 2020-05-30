@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+        fill: #7f4ec2;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="heart" class="cls-1" x="1.001" y="12.998">heart</text>
+</svg>

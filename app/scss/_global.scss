@@ -8,12 +8,17 @@ html {
 a {
     display: inline-block;
     text-decoration: none;
+    color: #000000;
 }
 
 ul,li {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+p {
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
