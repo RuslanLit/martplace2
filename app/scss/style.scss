@@ -377,18 +377,17 @@ margin-bottom: 36px;
     }
 }
 
-.products__inner-btn {
+.products__inner {
+    &-btn {
     background-color: #ffffff;
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
-    padding: 30px 25px 28px 28px;
-    margin-bottom: 60px;
-    &-button{
-        display: inline-block;
-    }
-    &-button {
+    padding: 30px 25px 28px 30px;
+    margin-bottom: 52px;
+    button {
     color: #747b86;
     padding: 8px 18px 9px 21px;
+    border: none;
     background-color: #f1f3f6;
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -400,14 +399,26 @@ margin-bottom: 36px;
         color: #ffffff;
         background-color: #0674ec;
     }
-}
+    &.active {
+        color: #ffffff;
+        background-color: #0674ec;
+     }
+    }
     button + button{
-        margin-left: 9px;
-        
+        margin-left: 4px;
+    }
+    }
+    &-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 27px;
     }
 }
+
 .product__item {
     max-width: 361px;
+    margin-bottom: 15px;
     &-img {
         width: 100%;
         height: 228px;
@@ -420,7 +431,7 @@ margin-bottom: 36px;
     &-content {
         background-color: #fff;
         box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
-    padding: 28px 40px 33px 29px;
+    padding: 28px 40px 30px 29px;
 }
     &-title {
     color: #000000;
@@ -450,6 +461,28 @@ margin-bottom: 36px;
         background-repeat: no-repeat;
         background-size: contain;
     }
+.ps::before {
+        content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 15px;
+            height: 20px;
+        background-image: url(../images/icons/psd.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.html::before {
+        content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 15px;
+            height: 20px;
+        background-image: url(../images/icons/html.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     .customer {
         display: flex;
         align-items: center;
@@ -459,6 +492,7 @@ margin-bottom: 36px;
             height: 28px;
             background-repeat: no-repeat;
             background-size: contain;
+            background-position: center;
         }
         &-name {
             padding-right: 11px;
@@ -470,8 +504,9 @@ margin-bottom: 36px;
         justify-content: space-between;
         background-color: #fff;
         box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
-        padding: 12px 9px 23px 29px;
+        padding: 12px 9px 15px 29px;
         border-top: 1px solid #ececec;
+        margin-left: 0 !important;
         &-wrapper {
             display: flex;
         }
@@ -499,7 +534,10 @@ margin-bottom: 36px;
             height: 15px;
             background-image: url(../images/icons/heart.svg);
             background-repeat: no-repeat;
-
+        }
+        &-star {
+            padding: 8px 16px 8px 23px;
+            position: relative;
         }
         &-total {
             padding: 8px 20px 8px 22px;
@@ -520,15 +558,21 @@ margin-bottom: 36px;
     }
 
     .products-all {
-        padding: 24px 33px;
+        display: block;
+        padding: 18px 32px;
         color: #ffffff;
         font-size: 16px;
         background-color: #0674ec;
         margin: 0 auto;
         border: none;
-        border-radius: 15px;
-        -webkit-border-radius: 15px;
-        -moz-border-radius: 15px;
-        -ms-border-radius: 15px;
-        -o-border-radius: 15px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        &:hover {
+            color: #0674ec;
+            background-color: #ffffff;
+             box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
+        }
 }
