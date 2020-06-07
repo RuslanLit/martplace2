@@ -515,6 +515,7 @@
         &-like {
             padding: 8px 16px 8px 30px;
             position: relative;
+            margin-right: -45px;
             &::before {
                 content: '';
                 position: absolute;
@@ -583,3 +584,102 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+//start slider-weekly
+.slider-weekly  {
+    padding: 120px 0;
+    min-height: 500px;
+    background-color: #eff1f5;
+    text-align: left;
+    &.slick-list {
+        padding-left: 0 !important;
+    }
+   &__title {
+        padding: 38px 14px 38px 25px;
+        background-color: $akcent;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .slick-arrow {
+        border: none;
+        outline: none;
+        background-color: $bg;
+        position: absolute;
+        top: 50%;
+        z-index: 5;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    .slick-next {
+        padding: 5px 30px 5px 20px;
+        right: 25px;
+        border-radius: 40px;
+}
+    .slick-prev {
+        padding: 5px 60px 5px 30px;
+        right: 40px; 
+        border-radius: 40px;
+    }
+    .slick-list {
+        padding-left: 15px;
+    }
+    .slick-slide {
+    margin-left: 30px;
+    }
+}
+
+
+//end slider-weekly
+
+
+
+//start folowers-slider
+
+
+.folowers-slider {
+    padding: 120px 0;
+    min-height: 500px;
+    background-color: #eff1f5;
+    &__title {
+        padding: 38px 14px 38px 25px;
+        background-color: $akcent;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .slick-arrow {
+        border: none;
+        outline: none;
+        background-color: $bg;
+        position: absolute;
+        top: 50%;
+        z-index: 5;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    .slick-next {
+        padding: 5px 30px 5px 20px;
+        right: 25px;
+        border-radius: 40px;
+}
+    .slick-prev {
+        padding: 5px 60px 5px 30px;
+        right: 40px; 
+        border-radius: 40px;
+    }
+    .slick-list {
+        padding-left: 15px;
+    }
+    .slick-slide {
+    margin-left: 30px;
+    }
+}
+.jq-ry-container {
+    padding: 10px 5px;
+    width: 96px;
+}
+
+//end folowers-slider
