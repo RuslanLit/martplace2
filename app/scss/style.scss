@@ -11,14 +11,12 @@
     &-inner {
         display: flex;
         justify-content: space-between;
-            }
+        }
     }
-
     &__main-box {
         display: flex;
         width: 47%;
     }
-
     &__main-info {
         display: flex;
         align-self: center;
@@ -27,11 +25,9 @@
              margin-left: 35px;
             }
     }
-
     &__main-item {
          position: relative;
     }
-
     &__main-count {
     position: absolute;
     top: -15px;
@@ -39,26 +35,18 @@
     padding: 3px 8px;
     font-size: 14px;
     font-weight: 500;
-    color: #ffffff;
+    color: $akcent;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     }
-
     &__main-count--red {
         background-color: #ff6a6c;
     }
-
     &__main-count--green {
         background-color: #6dbf54;
     }
-
     &__main-count--blue {
-        background-color: #0674ec;
+        background-color: $bg;
     }
-
     &__bottom-wrapper {
         max-height: 80px;
         justify-content: space-between;
@@ -66,11 +54,9 @@
         margin-bottom: 19px;
         display: flex;
     }
-
     &__bottom-search {
         padding-top: 15px;
     }
-
     &__search-form {
         min-width: 363px;
         position: relative;
@@ -79,10 +65,6 @@
             border: 1px solid #d9dfe5;
             border-radius: 23px;
             padding: 12px 80px 14px 25px;
-            -webkit-border-radius: 23px;
-            -moz-border-radius: 23px;
-            -ms-border-radius: 23px;
-            -o-border-radius: 23px;
             &::placeholder {
                 font-size: 15px;
                 font-weight: 400;
@@ -96,35 +78,27 @@
             right: 0;
             border: none;
             -webkit-appearance: button;
-            background-color: #0674ec;
+            background-color: $bg;
             padding: 14px 27px;
             border-radius: 23px;
-            -webkit-border-radius: 23px;
-            -moz-border-radius: 23px;
-            -ms-border-radius: 23px;
-            -o-border-radius: 23px;
         }
     }
     &__btn {
     display: block;
-    background-color: #0674ec;
-    color: #ffffff;
+    background-color: $bg;
+    color: $akcent;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
     max-height: 68%;
     margin-top: 7px;
     font-size: 13px;
     padding: 10px 20px 10px 20px;
     border-radius: 18px;
-    -webkit-border-radius: 18px;
-    -moz-border-radius: 18px;
-    -ms-border-radius: 18px;
-    -o-border-radius: 18px;
         &:hover {
             color:  #468bef;
             box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
-            background-color: #ffffff;
+            background-color: $akcent;
          }
-}
+    }
 }
 
 .user {
@@ -133,10 +107,6 @@
         min-height: 50px;
         width: 50px;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
         background-color: #7c7979;
         margin-right: 20px;
     }
@@ -173,12 +143,9 @@
     position: relative;
     height: 726px;
     background: rgb(45, 79, 209);
-    background: -webkit-linear-gradient(57deg, rgb(45, 79, 209) 0%, rgb(9, 47, 186) 76%);
-    background: -o-linear-gradient(57deg, rgb(45, 79, 209) 0%, rgb(9, 47, 186) 76%);
-    background: -ms-linear-gradient(57deg, rgb(45, 79, 209) 0%, rgb(9, 47, 186) 76%);
     background: linear-gradient(57deg, rgb(45, 79, 209) 0%, rgb(9, 47, 186) 76%);
     &__inner {
-        color: #ffffff;
+        color: $akcent;
         text-align: center;
         padding-top: 170px;
         margin: 0 auto;
@@ -203,25 +170,21 @@
          margin: 0 auto;
          }
         &-link {
-         color: #ffffff;
+         color: $akcent;
          padding: 18px 32px;
          font-size: 16px;
          font-weight: 400;
-         border: 1px solid #ffffff;
+         border: 1px solid $akcent;
          border-radius: 30px;
-         -webkit-border-radius: 30px;
-         -moz-border-radius: 30px;
-         -ms-border-radius: 30px;
-         -o-border-radius: 30px;
              &:hover {
              color:  #468bef;
              box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
-             background-color: #ffffff;
+             background-color: $akcent;
             }
         }   
     }
     &__form {
-        background-color: #ffffff;
+        background-color: $akcent;
         box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
         margin-top: -72px;
         padding: 40px;
@@ -237,8 +200,8 @@
             border-radius: 3px;
         }
         input[type="submit"] {
-            color: #ffffff;
-            background-color: #0674ec;
+            color: $akcent;
+            background-color: $bg;
             border: none; 
             border-radius: 3px;
             padding: 20px 67px;
@@ -315,7 +278,7 @@
   height: 20px;
   vertical-align: -0.05em;
   &-magnifier {
-      color: #fff;
+      color: $akcent;
       width: 15px;
       height: 15px;
   }
@@ -341,11 +304,7 @@
         }
         &:hover {
             border-radius: 4px;
-            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
-           -webkit-border-radius: 4px;
-            -moz-border-radius: 4px;
-            -ms-border-radius: 4px;
-            -o-border-radius: 4px;
+            box-shadow: $shadow
    }
     }
     &__title {
@@ -369,16 +328,12 @@
     &__title {
         display: flex;
         justify-content: space-between;
-        background-color: #ffffff;
+        background-color: $akcent;
         border-radius: 5px;
-        box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        box-shadow: $shadow;
         padding: 45px 30px 40px 30px;
         margin-bottom: 29px;
         &-text{
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
         font-size: 30px;
         }
         &-desc {
@@ -397,11 +352,10 @@
         }
         }
     }
-
     &__inner {
         &-btn {
-            background-color: #ffffff;
-            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+            background-color: $akcent;
+            box-shadow: $shadow;
             border-radius: 5px;
             padding: 30px 25px 28px 30px;
             margin-bottom: 52px;
@@ -411,18 +365,14 @@
             border: none;
             background-color: #f1f3f6;
             border-radius: 16px;
-            -webkit-border-radius: 16px;
-            -moz-border-radius: 16px;
-            -ms-border-radius: 16px;
-            -o-border-radius: 16px;
             font-size: 15px;
                 &:hover {
-                    background-color: #0674ec;
-                    color: #ffffff;
+                    background-color: $bg;
+                    color: $akcent;
                 }
                 &.active {
-                    color: #ffffff;
-                    background-color: #0674ec;
+                    color: $akcent;
+                    background-color: $bg;
                 }
             }
         button + button{
@@ -436,24 +386,19 @@
         margin-bottom: 27px;
         }
     }
-    
     &-all {
         display: block;
         padding: 18px 32px;
-        color: #ffffff;
+        color: $akcent;
         font-size: 16px;
-        background-color: #0674ec;
+        background-color: $bg;
         margin: 0 auto;
         border: none;
         border-radius: 25px;
-        -webkit-border-radius: 25px;
-        -moz-border-radius: 25px;
-        -ms-border-radius: 25px;
-        -o-border-radius: 25px;
         &:hover {
-            color: #0674ec;
-            background-color: #ffffff;
-             box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
+            color: $bg;
+            background-color: $akcent;
+            box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
         }
     }
 }
@@ -496,8 +441,8 @@
     &__btn {
     padding: 12px 30px;
     border-radius: 30px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid $akcent;
+    color: $akcent;
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -506,14 +451,14 @@
         &:hover {
             color:  #468bef;
             box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
-            background-color: #ffffff;
+            background-color: $akcent;
         }
         &:first-child {
             margin-right: 10px;
         }
     }
     &__body {
-    background-color: #fff;
+    background-color: $akcent;
     box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.08);
     padding: 28px 30px 30px 29px;
         &-title {
@@ -552,7 +497,7 @@
     &__footer {
         display: flex;
         justify-content: space-between;
-        background-color: #fff;
+        background-color: $akcent;
         box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
         padding: 12px 9px 15px 29px;
         border-top: 1px solid #ececec;
@@ -561,15 +506,11 @@
             display: flex;
         }
         &-price {
-            color: #0674ec;
+            color: $bg;
             padding: 8px 16px;
             margin-right: 11px;
             background-color: #e6f1fd;
             border-radius: 15px;
-            -webkit-border-radius: 15px;
-            -moz-border-radius: 15px;
-            -ms-border-radius: 15px;
-            -o-border-radius: 15px;
         }
         &-like {
             padding: 8px 16px 8px 30px;
@@ -592,7 +533,7 @@
         &-total {
             padding: 8px 20px 8px 22px;
             position: relative;
-            color: #0674ec;
+            color: $bg;
             &::before {
                 content: '';
                 position: absolute;
@@ -614,9 +555,9 @@
             left: 0;
             width: 15px;
             height: 20px;
-        background-image: url(../images/icons/wordpress.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
+            background-image: url(../images/icons/wordpress.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
 }
 
 .ps::before {
@@ -626,9 +567,9 @@
             left: 0;
             width: 15px;
             height: 20px;
-        background-image: url(../images/icons/psd.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
+            background-image: url(../images/icons/psd.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
 }
 
 .html::before {
@@ -638,7 +579,7 @@
             left: 0;
             width: 15px;
             height: 20px;
-        background-image: url(../images/icons/html.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
+            background-image: url(../images/icons/html.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
 }
