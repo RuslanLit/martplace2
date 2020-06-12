@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="37" viewBox="0 0 48 37">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        fill: #ff6a6d;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="users" class="cls-1" x="0.001" y="39.005">users</text>
+</svg>

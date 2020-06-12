@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="41" viewBox="0 0 48 41">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        fill: #feb71d;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="briefcase" class="cls-1" y="41.005">briefcase</text>
+</svg>

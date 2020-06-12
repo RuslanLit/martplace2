@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="51" viewBox="0 0 39 51">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #77de51;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="lock" class="cls-1" x="-9" y="50.996">lock</text>
+</svg>

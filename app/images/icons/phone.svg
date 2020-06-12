@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 60 48">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #ff6a6d;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="phone" class="cls-1" y="50.995">phone</text>
+</svg>

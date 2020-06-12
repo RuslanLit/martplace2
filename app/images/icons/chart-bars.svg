@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #feb71d;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="chart-bars" class="cls-1" x="0.001" y="53.995">chart-bars</text>
+</svg>

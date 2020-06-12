@@ -19,11 +19,9 @@
             <img src="images/Logo.png" alt="">
           </a>
           <div class="header__main-box">
-            <div class="header__main-seller">
-              <a class="header__btn" href="#">
-                Become a Seler
-              </a>
-            </div>
+            <a class="header__btn" href="#">
+              Become a Seler
+            </a>
             <div class="header__main-info ">
               <div class="header__main-item">
                 <a href="#" class="header__main-notification">
@@ -51,9 +49,7 @@
               </div>
             </div>
             <div class="header__main-user user">
-              <div class="user__ico">
-                <img src="#" alt="">
-              </div>
+              <img src="images/panda.jpg" alt="user panda" class="user__ico">
               <div class="user__info">
                 <div class="user__info-name">Taofiq Hakim</div>
                 <div class="user__info-balance">$20.45</div>
@@ -97,8 +93,8 @@
           </nav>
           <div class="header__bottom-search">
             <form class="header__search-form">
-              <input type="search" placeholder="Search product here..." required>
-              <button type="submit">
+              <input type="search" placeholder="Search product here..." required class="header-input">
+              <button type="submit" class="header-btn">
                 <svg class="lnr lnr-magnifier">
                   <use xlink:href="#lnr-magnifier"></use>
                 </svg>
@@ -119,30 +115,30 @@
               Digital Product Marketplace
             </span>
           </div>
-          <div class="search__inner-text">
+          <div class="search-text">
             MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
           </div>
-          <div class="search__inner-links">
-            <a href="#" class="search__inner-link">
+          <div class="search-links">
+            <a href="#" class="search-link">
               Viev All Products
             </a>
-            <a href="#" class="search__inner-link">
+            <a href="#" class="search-link">
               Popular Produkts
             </a>
           </div>
         </div>
         <div class="container-form">
           <form class="search__form">
-            <input type="search" placeholder="Search your products...">
+            <input type="search" placeholder="Search your products..." class="search__input">
             <select class="search__list-select">
               <option selected value="s1" class="search__item">All Categories</option>
-              <option value="s2" class="search__item">Plugins</option>
-              <option value="s3" class="search__item">Wordpress</option>
-              <option value="s4" class="search__item">Site template</option>
-              <option value="s5" class="search__item">PSD template</option>
-              <option value="s6" class="search__item">Joomla</option>
+              <option value="s2">Plugins</option>
+              <option value="s3">Wordpress</option>
+              <option value="s4">Site template</option>
+              <option value="s5">PSD template</option>
+              <option value="s6">Joomla</option>
             </select>
-            <input type="submit" value="Search Now">
+            <input type="submit" value="Search Now" class="search__btn">
           </form>
         </div>
       </div>
@@ -151,9 +147,7 @@
       <div class="container">
         <div class="advantages__inner">
           <div class="advantages__item">
-            <div class="advantages__img">
-              <img src="images/icons/adv-1.png" alt="">
-            </div>
+            <img src="images/icons/adv-1.png" alt="" class="advantages__img">
             <div class="advantages__title">
               Best UX Research
             </div>
@@ -164,9 +158,7 @@
             </div>
           </div>
           <div class="advantages__item">
-            <div class="advantages__img">
-              <img src="images/icons/adv-2.png" alt="">
-            </div>
+            <img src="images/icons/adv-2.png" alt="" class="advantages__img">
             <div class="advantages__title">
               Fully Responsive
             </div>
@@ -177,9 +169,7 @@
             </div>
           </div>
           <div class="advantages__item">
-            <div class="advantages__img">
-              <img src="images/icons/adv-3.png" alt="">
-            </div>
+            <img src="images/icons/adv-3.png" alt="" class="advantages__img">
             <div class="advantages__title">
               Buy & Sell Easily
             </div>
@@ -199,103 +189,189 @@
             <div class="title-slide">
               Weekly Featured Products
             </div>
-            <div class="title-slide">
-              Weekly Featured Products
-            </div>
+            <div class="arrows-wrap"></div>
           </div>
           <div class="slider-weekly__slides">
-            <div class="product__card card">
-              <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
-                <div class="card__hover">
-                  <a href="#" class="card__btn">More info</a>
-                  <a href="#" class="card__btn">Live Demo</a>
-                </div>
-              </div>
-              <div class="card__body">
-      
-                <a class="card__body-title" href="#">
-                  E-commerce Shopping Cart
+            <div class="weekly-card">
+              <img src="images/panda.jpg" alt="" class="weekly__picture">
+              <div class="weekly__main content">
+                <a class="content__title" href="#">
+                  One Page Resume Template
                 </a>
-                <div class="card__body-name">
-                  <span class="card__body-avatar" style="background-image: url(images/customer.png);">
+                <div class="content__name">
+                  <span class="content__name-avatar" style="background-image: url(images/customer.png);">
                   </span>
-                  <a href="#" class="card__customer-name">
-                    Theme-Valley
+                  <a href="#" class="content__name-name">
+                    AazzTech
                   </a>
-                  <a href="#" class="card__item-category wordpress">
-                    Plugin
+                  <a href="#" class="content__name-category" style="background-image: url(images/icons/wordpress.svg);">
+                    Wordpress
                   </a>
                 </div>
-                <p class="card__item-text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                  the mattis, leo quam aliquet congue.
+                <p class="content__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue justo
+                  ut scelerisque.
                 </p>
-              </div>
-              <div class="product__card card__footer">
-                <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
-                    $20
-                  </div>
-                  <div class="card__footer-like">
-                    90
-                  </div>
+                <div class="content__links">
+                  <a href="#" class="content__link">website</a>
+                  <a href="#" class="content__link">plugin</a>
+                  <a href="#" class="content__link">landing page</a>
                 </div>
-                <!-- <div class="rate-star">
-                
-                                </div> -->
-                <div class="card__footer-total">
-                  246
+                <div class="content__footer">
+                  <div class="content__footer-wrapper">
+                    <div class="content__footer-price">
+                      $10 - $50
+                    </div>
+                    <div class="content__footer-like">
+                      46
+                    </div>
+                    <div class="content__footer-total">
+                      636
+                    </div>
+                  </div>
+                  <div class="rate-star"></div>
+
                 </div>
               </div>
             </div>
-            <div class="product__card card">
-              <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
-                <div class="card__hover">
-                  <a href="#" class="card__btn">More info</a>
-                  <a href="#" class="card__btn">Live Demo</a>
-                </div>
-              </div>
-              <div class="card__body">
-      
-                <a class="card__body-title" href="#">
-                  Marketify Coffee Shop
+            <div class="weekly-card">
+              <img src="images/panda.jpg" alt="" class="weekly__picture">
+              <div class="weekly__main content">
+                <a class="content__title" href="#">
+                  One Page Resume Template
                 </a>
-                <div class="card__body-name">
-                  <span class="card__body-avatar" style="background-image: url(images/customer.png);">
+                <div class="content__name">
+                  <span class="content__name-avatar" style="background-image: url(images/customer.png);">
                   </span>
-                  <a href="#" class="card__customer-name">
-                    EchoTheme
+                  <a href="#" class="content__name-name">
+                    AazzTech
                   </a>
-                  <a href="#" class="card__item-category ps">
-                    PSD
+                  <a href="#" class="content__name-category" style="background-image: url(images/icons/wordpress.svg);">
+                    Wordpress
                   </a>
                 </div>
-                <p class="card__item-text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                  the mattis, leo quam aliquet congue.
+                <p class="content__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue justo
+                  ut scelerisque.
                 </p>
-              </div>
-              <div class="product__card card__footer">
-                <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
-                    $18
-                  </div>
-                  <div class="card__footer-like">
-                    48
-                  </div>
+                <div class="content__links">
+                  <a href="#" class="content__link">website</a>
+                  <a href="#" class="content__link">plugin</a>
+                  <a href="#" class="content__link">landing page</a>
                 </div>
-                <!-- <div class="rate-star">
-                
-                                </div> -->
-                <div class="card__footer-total">
-                  50
+                <div class="content__footer">
+                  <div class="content__footer-wrapper">
+                    <div class="content__footer-price">
+                      $10 - $50
+                    </div>
+                    <div class="content__footer-like">
+                      46
+                    </div>
+                    <div class="content__footer-total">
+                      636
+                    </div>
+                  </div>
+                  <div class="rate-star"></div>
+
                 </div>
               </div>
             </div>
-           
-            
+            <div class="weekly-card">
+              <img src="images/panda.jpg" alt="" class="weekly__picture">
+              <div class="weekly__main content">
+                <a class="content__title" href="#">
+                  One Page Resume Template
+                </a>
+                <div class="content__name">
+                  <span class="content__name-avatar" style="background-image: url(images/customer.png);">
+                  </span>
+                  <a href="#" class="content__name-name">
+                    AazzTech
+                  </a>
+                  <a href="#" class="content__name-category" style="background-image: url(images/icons/wordpress.svg);">
+                    Wordpress
+                  </a>
+                </div>
+                <p class="content__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue justo
+                  ut scelerisque.
+                </p>
+                <div class="content__links">
+                  <a href="#" class="content__link">website</a>
+                  <a href="#" class="content__link">plugin</a>
+                  <a href="#" class="content__link">landing page</a>
+                </div>
+                <div class="content__footer">
+                  <div class="content__footer-wrapper">
+                    <div class="content__footer-price">
+                      $10 - $50
+                    </div>
+                    <div class="content__footer-like">
+                      46
+                    </div>
+                    <div class="content__footer-total">
+                      636
+                    </div>
+                  </div>
+                  <div class="rate-star"></div>
+
+                </div>
+              </div>
+            </div>
+            <div class="weekly-card">
+              <img src="images/panda.jpg" alt="" class="weekly__picture">
+              <div class="weekly__main content">
+                <a class="content__title" href="#">
+                  One Page Resume Template
+                </a>
+                <div class="content__name">
+                  <span class="content__name-avatar" style="background-image: url(images/customer.png);">
+                  </span>
+                  <a href="#" class="content__name-name">
+                    AazzTech
+                  </a>
+                  <a href="#" class="content__name-category" style="background-image: url(images/icons/wordpress.svg);">
+                    Wordpress
+                  </a>
+                </div>
+                <p class="content__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue justo
+                  ut scelerisque.
+                </p>
+                <div class="content__links">
+                  <a href="#" class="content__link">website</a>
+                  <a href="#" class="content__link">plugin</a>
+                  <a href="#" class="content__link">landing page</a>
+                </div>
+                <div class="content__footer">
+                  <div class="content__footer-wrapper">
+                    <div class="content__footer-price">
+                      $10 - $50
+                    </div>
+                    <div class="content__footer-like">
+                      46
+                    </div>
+                    <div class="content__footer-total">
+                      636
+                    </div>
+                  </div>
+                  <div class="rate-star"></div>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -306,41 +382,48 @@
           <div class="products__title-text">
             Newest Release Products
           </div>
-          <div class="products__title-desc">
+          <div class="products__title-filter">
             Filter by:
+            <div class="products__sort">
+              <a href="#" class="products__sort-link">Trending items</a>
+              <a href="#" class="products__sort-link">Best seller</a>
+              <a href="#" class="products__sort-link">Best rating</a>
+              <a href="#" class="products__sort-link">Low price</a>
+              <a href="#" class="products__sort-link">High price</a>
+            </div>
           </div>
         </div>
         <div class="products__inner">
-          <div class="products__inner-btn">
-            <button class="active" type="button" data-filter=".category-wordpress">
+          <div class="products__buttons">
+            <button class="products-btn" type="button" data-filter=".category-wordpress">
               Plugins
             </button>
-            <button type="button" data-filter=".category-wordpress">
+            <button class="products-btn" type="button" data-filter=".category-wordpress">
               Wordpress
             </button>
-            <button type="button" data-filter=".category-html">
+            <button class="products-btn" type="button" data-filter=".category-html">
               Site Template
             </button>
-            <button type="button" data-filter=".category-psd">
+            <button class="products-btn" type="button" data-filter=".category-psd">
               PSD Template
             </button>
-            <button type="button" data-filter=".category-joomla">
+            <button class="products-btn" type="button" data-filter=".category-joomla">
               Joomla
             </button>
-            <button type="button" data-filter="acategory-wordpressll">
+            <button class="products-btn" type="button" data-filter="acategory-wordpressll">
               User Interface
             </button>
-            <button type="button" data-filter=".category-lp">
+            <button class="products-btn" type="button" data-filter=".category-lp">
               Landing Page
             </button>
-            <button type="button" data-filter=".category-soft">
+            <button class="products-btn" type="button" data-filter=".category-soft">
               Software
             </button>
           </div>
           <div class="products__inner-box">
             <div class="product__card card mix category-wordpress">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
+                <img src="images/items_bg.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -357,7 +440,7 @@
                   <a href="#" class="card__customer-name">
                     Theme-Valley
                   </a>
-                  <a href="#" class="card__item-category wordpress">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/wordpress.svg);">
                     Plugin
                   </a>
                 </div>
@@ -366,14 +449,14 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $20
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     90
-                  </div>
+                  </button>
                 </div>
                 <!-- <div class="rate-star">
 
@@ -385,7 +468,7 @@
             </div>
             <div class="product__card card mix category-psd">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
+                <img src="images/items_bg.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -402,7 +485,7 @@
                   <a href="#" class="card__customer-name">
                     EchoTheme
                   </a>
-                  <a href="#" class="card__item-category ps">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/psd.svg);">
                     PSD
                   </a>
                 </div>
@@ -411,14 +494,14 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $18
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     48
-                  </div>
+                  </button>
                 </div>
                 <!-- <div class="rate-star">
 
@@ -430,7 +513,7 @@
             </div>
             <div class="product__card card mix category-html">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg1.png);" alt="" class="card__img">
+                <img src="images/items_bg1.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -447,7 +530,7 @@
                   <a href="#" class="card__customer-name">
                     Artcorner
                   </a>
-                  <a href="#" class="card__item-category html">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/html.jpg);">
                     HTML
                   </a>
                 </div>
@@ -456,26 +539,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     56
-                  </div>
+                  </button>
                 </div>
                 <div class="rate-star">
 
                 </div>
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   68
-                </div>
+                </button>
               </div>
             </div>
             <div class="product__card card mix category-wordpress">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg1.png);" alt="" class="card__img">
+                <img src="images/items_bg1.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -492,7 +575,7 @@
                   <a href="#" class="card__customer-name">
                     Design-Hub
                   </a>
-                  <a href="#" class="card__item-category wordpress">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/wordpress.svg);">
                     Plugin
                   </a>
                 </div>
@@ -501,26 +584,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10-50
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     90
-                  </div>
+                  </button>
                 </div>
                 <div class="rate-star">
 
                 </div>
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   45
-                </div>
+                </button>
               </div>
             </div>
             <div class="product__card card mix category-psd">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
+                <img src="images/items_bg.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -537,7 +620,7 @@
                   <a href="#" class="card__customer-name">
                     AazzTech
                   </a>
-                  <a href="#" class="card__item-category ps">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/psd.svg);">
                     PSD
                   </a>
                 </div>
@@ -546,26 +629,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10-50
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     48
-                  </div>
+                  </button>
                 </div>
                 <!-- <div class="rate-star">
 
                 </div> -->
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   50
-                </div>
+                </button>
               </div>
             </div>
             <div class="product__card card mix category-html">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg1.png);" alt="" class="card__img">
+                <img src="images/items_bg1.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -582,7 +665,7 @@
                   <a href="#" class="card__customer-name">
                     Coder-Lab
                   </a>
-                  <a href="#" class="card__item-category html">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/html.jpg);">
                     HTML
                   </a>
                 </div>
@@ -591,26 +674,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     56
-                  </div>
+                  </button>
                 </div>
                 <div class="rate-star">
 
                 </div>
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   68
-                </div>
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <button type="button" data-filter="all" class="products-all">
+        <button type="button" data-filter="all" class="products__all">
           All New Products
         </button>
       </div>
@@ -620,16 +703,14 @@
         <div class="folowers-slider__inner">
           <div class="folowers-slider__title">
             <div class="title-slide">
-               Your Followers Feed
+              Your Followers Feed
             </div>
-            <div class="title-slide">
-               Your Followers Feed
-            </div>
+            <div class="folowers_arrows-wrap"></div>
           </div>
           <div class="folowers-slider__slides">
-            <div class="product__card card">
+            <div class="product__card card mix category-wordpress">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
+                <img src="images/items_bg.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -646,7 +727,7 @@
                   <a href="#" class="card__customer-name">
                     Theme-Valley
                   </a>
-                  <a href="#" class="card__item-category wordpress">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/wordpress.svg);">
                     Plugin
                   </a>
                 </div>
@@ -655,26 +736,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $20
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     90
-                  </div>
+                  </button>
                 </div>
                 <!-- <div class="rate-star">
-          
-                          </div> -->
+            
+                            </div> -->
                 <div class="card__footer-total">
                   246
                 </div>
               </div>
             </div>
-            <div class="product__card card">
+            <div class="product__card card mix category-psd">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
+                <img src="images/items_bg.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -691,7 +772,7 @@
                   <a href="#" class="card__customer-name">
                     EchoTheme
                   </a>
-                  <a href="#" class="card__item-category ps">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/psd.svg);">
                     PSD
                   </a>
                 </div>
@@ -700,26 +781,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $18
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     48
-                  </div>
+                  </button>
                 </div>
                 <!-- <div class="rate-star">
-          
-                          </div> -->
+            
+                            </div> -->
                 <div class="card__footer-total">
                   50
                 </div>
               </div>
             </div>
-            <div class="product__card card">
+            <div class="product__card card mix category-html">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg1.png);" alt="" class="card__img">
+                <img src="images/items_bg1.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -736,7 +817,7 @@
                   <a href="#" class="card__customer-name">
                     Artcorner
                   </a>
-                  <a href="#" class="card__item-category html">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/html.jpg);">
                     HTML
                   </a>
                 </div>
@@ -745,26 +826,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     56
-                  </div>
+                  </button>
                 </div>
                 <div class="rate-star">
 
                 </div>
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   68
-                </div>
+                </button>
               </div>
             </div>
-            <div class="product__card card">
+            <div class="product__card card mix category-wordpress">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg1.png);" alt="" class="card__img">
+                <img src="images/items_bg1.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -781,7 +862,7 @@
                   <a href="#" class="card__customer-name">
                     Design-Hub
                   </a>
-                  <a href="#" class="card__item-category wordpress">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/wordpress.svg);">
                     Plugin
                   </a>
                 </div>
@@ -790,26 +871,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10-50
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     90
-                  </div>
+                  </button>
                 </div>
                 <div class="rate-star">
 
                 </div>
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   45
-                </div>
+                </button>
               </div>
             </div>
-            <div class="product__card card">
+            <div class="product__card card mix category-psd">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg.png);" alt="" class="card__img">
+                <img src="images/items_bg.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -826,7 +907,7 @@
                   <a href="#" class="card__customer-name">
                     AazzTech
                   </a>
-                  <a href="#" class="card__item-category ps">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/psd.svg);">
                     PSD
                   </a>
                 </div>
@@ -835,26 +916,26 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10-50
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     48
-                  </div>
+                  </button>
                 </div>
                 <!-- <div class="rate-star">
-          
-                          </div> -->
-                <div class="card__footer-total">
+            
+                            </div> -->
+                <button class="card__footer-total">
                   50
-                </div>
+                </button>
               </div>
             </div>
-            <div class="product__card card">
+            <div class="product__card card mix category-html">
               <div class="card__head">
-                <img style="background-image: url(images/items_bg1.png);" alt="" class="card__img">
+                <img src="images/items_bg1.png" alt="" class="card__img">
                 <div class="card__hover">
                   <a href="#" class="card__btn">More info</a>
                   <a href="#" class="card__btn">Live Demo</a>
@@ -871,7 +952,7 @@
                   <a href="#" class="card__customer-name">
                     Coder-Lab
                   </a>
-                  <a href="#" class="card__item-category html">
+                  <a href="#" class="card__item-category" style="background-image: url(images/icons/html.jpg);">
                     HTML
                   </a>
                 </div>
@@ -880,23 +961,173 @@
                   the mattis, leo quam aliquet congue.
                 </p>
               </div>
-              <div class="product__card card__footer">
+              <div class="card__footer">
                 <div class="card__footer-wrapper">
-                  <div class="card__footer-price">
+                  <button class="card__footer-price">
                     $10
-                  </div>
-                  <div class="card__footer-like">
+                  </button>
+                  <button class="card__footer-like">
                     56
-                  </div>
+                  </button>
                 </div>
                 <div class="rate-star">
 
                 </div>
-                <div class="card__footer-total">
+                <button class="card__footer-total">
                   68
-                </div>
+                </button>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fun-fact">
+      <div class="container">
+        <div class="fun-fact__items">
+          <div class="fun-fact__item fact">
+            <div class="fact__img" style="background-image: url(images/icons/briefcase.svg);"></div>
+            <div class="fact__number fact__number--orange">
+              38,436
+            </div>
+            <div class="fact__text">
+              items for sale
+            </div>
+
+          </div>
+          <div class="fun-fact__item fact">
+            <div class="fact__img" style="background-image: url(images/icons/cloud-download.svg);"></div>
+            <div class="fact__number fact__number--blue">
+              3,736
+            </div>
+            <div class="fact__text">
+              total sales
+            </div>
+          </div>
+          <div class="fun-fact__item fact">
+            <div class="fact__img" style="background-image: url(images/icons/smile.svg);"></div>
+            <div class="fact__number fact__number--green">
+              2,736
+            </div>
+            <div class="fact__text">
+              happy customers
+            </div>
+          </div>
+          <div class="fun-fact__item fact">
+            <div class="fact__img" style="background-image: url(images/icons/users.svg);"></div>
+            <div class="fact__number fact__number--red">
+              25,736
+            </div>
+            <div class="fact__text">
+              members
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="choose">
+      <div class="container">
+        <div class="choose__title">
+          Why Choose <span class="choose__title--blue">MartPlace</span> 
+        </div>
+        <div class="choose__subtitle">
+          Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum dolo
+          rumes fugats untras.
+        </div>
+        <div class="choose__inner">
+          <div class="choose__item">
+            <div class="choose__number">
+              01
+            </div>
+            <div class="choose__img" style="background-image: url(images/icons/license.svg);"></div>
+            <div class="choose__item-title">
+              One Time Payment
+            </div>
+            <div class="choose__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+
+
+          </div>
+          <div class="choose__item">
+            <div class="choose__number">
+              02
+            </div>
+            <div class="choose__img" style="background-image: url(images/icons/magic-wand.svg);"></div>
+            <div class="choose__item-title">
+              Quality Products
+            </div>
+            <div class="choose__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+          <div class="choose__item">
+            <div class="choose__number">
+              03
+            </div>
+            <div class="choose__img" style="background-image: url(images/icons/lock.svg);"></div>
+            <div class="choose__item-title">
+              100% Secure Payment
+            </div>
+            <div class="choose__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          
+          
+          </div>
+          <div class="choose__item">
+            <div class="choose__number">
+              04
+            </div>
+            <div class="choose__img" style="background-image: url(images/icons/chart-bars.svg);"></div>
+            <div class="choose__item-title">
+              Well Organized Code
+            </div>
+            <div class="choose__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          
+          
+          </div>
+          <div class="choose__item">
+            <div class="choose__number">
+              05
+            </div>
+            <div class="choose__img" style="background-image: url(images/icons/leaf.svg);"></div>
+            <div class="choose__item-title">
+              Life Time Free Update
+            </div>
+            <div class="choose__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          
+          
+          </div>
+          <div class="choose__item">
+            <div class="choose__number">
+              06
+            </div>
+            <div class="choose__img" style="background-image: url(images/icons/phone.svg);"></div>
+            <div class="choose__item-title">
+              Fast and Friendly Support
+            </div>
+            <div class="choose__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          
+          
           </div>
         </div>
       </div>

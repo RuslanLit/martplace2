@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="29" viewBox="0 0 48 29">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        fill: #58c9e9;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="cloud-download" class="cls-1" x="0.001" y="36.005">cloud-download</text>
+</svg>
