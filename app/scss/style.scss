@@ -842,7 +842,7 @@
         margin-right: 30px;
         }
     }
-    .folowers-card {
+    &-card {
         width: 360px !important;
         border-radius: 6px;
         box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -968,4 +968,70 @@
         background-repeat: no-repeat;
         margin-bottom: 40px;
     }
+}
+
+.sell-buy {
+    min-height: 560px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: $akcent;
+}
+
+.sell, .buy {
+    max-width: 50vw;
+    height:  560px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sell-buy {
+    &__wrap {
+        margin: 0 auto;
+        padding: 100px 80px;
+    }
+    &__picture {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 128px;
+        height: 106px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &-title {
+        font-size: 36px;
+        margin-bottom: 28px;
+    }
+    &-text {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+    &-btn {
+        background-color: $akcent;
+        padding: 20px 45px;
+        font-size: 16px;
+        color: #8a6aca;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.sell {
+    background-image: url(../images/sell_bg.png);
+    margin-right: -5px;
+    &__btn {
+        color: #0674ec;
+    }
+}
+
+.buy {
+    background-image: url(../images/buy_bg.svg);
+    &__picture {
+        background-size: contain;
+     }
 }
