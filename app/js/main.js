@@ -19,7 +19,7 @@ $(function () {
         appendArrows: '.arrows-wrap'
     });
 
-    $('.folowers-slider__slides').slick({
+    $('.folowers__slides').slick({
         nextArrow: '<button class="slick-arrow slick-next"><img src="images/icons/chevron-right.svg" alt="next arrow"></button>',
         prevArrow: '<button class="slick-arrow slick-prev"><img src="images/icons/chevron-left.svg" alt="prev arrow"></button>',
         appendArrows: '.folowers_arrows-wrap',
