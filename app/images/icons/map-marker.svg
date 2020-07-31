@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+        fill: #fff;
+        font-family: Linearicons-Free;
+      }
+    </style>
+  </defs>
+  <text id="map-marker" class="cls-1" x="-3" y="15.999">map-marker</text>
+</svg>
